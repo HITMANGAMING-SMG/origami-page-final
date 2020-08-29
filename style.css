@@ -1,0 +1,97 @@
+h1 {
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 60;
+  background-color: #00ffff;
+  color: #000000;
+  padding: 10px;
+  text-align: center;
+}
+
+.links {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.handle {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #9acd32;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding: 20px;
+}
+
+.camelphotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: solid;
+}
+
+.footerItem {
+  padding: 10px;
+}
+
+.title {
+  font-style: italic;
+  font-size: 25px;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+a:link {
+  color: #00ffee;
+}
+
+a:visited {
+  color: #6200ff;
+}
+
+.stuff {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.pages p {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  opacity: 0;
+}
+
+.pages p {
+  font-size: 30;
+  width: 150;
+  height: 100;
+  background-color: rgba(255, 150, 80, 0.589);
+}
+
+.pages:hover p {
+  opacity: 1;
+}
+
+.pages:hover img {
+  opacity: 0.33;
+}
+
+.bottom {
+  background-color: yellowgreen;
+}
+
+.bottom p {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 80px;
+  padding-top: 20px;
+  font-size: 19px;
+}
+.bg {
+  background-color: wheat;
+}
